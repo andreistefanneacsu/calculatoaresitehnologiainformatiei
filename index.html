@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Coming Soon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            padding: 40px;
+            animation: fadeIn 2s ease;
+        }
+
+        h1 {
+            font-size: 4rem;
+            letter-spacing: 4px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 300;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+
+        .line {
+            width: 100px;
+            height: 4px;
+            background: #00ffd5;
+            margin: 0 auto 30px auto;
+            border-radius: 10px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            opacity: 0.85;
+            margin-bottom: 40px;
+        }
+
+        .date {
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: #00ffd5;
+            letter-spacing: 2px;
+        }
+
+        .tag {
+            margin-top: 30px;
+            font-size: 0.9rem;
+            opacity: 0.6;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Coming Soon</h1>
+        <div class="line"></div>
+        <h2>Despre asta este vorba!</h2>
+
+        <p>
+            Configuram de la A la Z. De la stanga la dreapta. De jos in sus.
+        </p>
+
+        <div class="date">20 IANUARIE 2026</div>
+
+        <div class="tag">Stay Tuned</div>
+    </div>
+
+</body>
+</html>
